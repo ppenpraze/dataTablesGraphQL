@@ -1,0 +1,2 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+table.dataTable thead th, table.dataTable tbody td { white-space: nowrap; }

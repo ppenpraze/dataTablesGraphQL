@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DataTables + FastAPI GraphQL Demo</title>
+
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
+
+  <!-- jQuery and DataTables JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+
+  <link rel="stylesheet" href="/static/include/css/main.css">
+</head>
+<body>
+  <h1>DataTables + FastAPI</h1>
+  <p>This table uses server-side processing served by FastAPI (/datatable). GraphQL (Strawberry) is available at <a href="/graphql-strawberry">/graphql-strawberry</a>.</p>
+
+  <table id="people" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>position</th>
+        <th>office</th>
+        <th>age</th>
+        <th>start_date</th>
+        <th>salary</th>
+      </tr>
+    </thead>
+  </table>
+
+  <script src="/static/include/js/main.js"></script>
+</body>
+</html>
