@@ -125,4 +125,4 @@ query {
 PRs and issues are welcome. Please open a discussion if you’d like to add more query modes, authentication, or schema customization.
 
 ## License
-MIT License (see LICENSE if provided).
+This project is licensed under the MIT License - see the LICENSE file for details.
